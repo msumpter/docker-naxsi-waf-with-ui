@@ -6,7 +6,7 @@ MAINTAINER Santiago Rodriguez <scollazo@gmail.com>
 # https://github.com/Epheo/docker-naxsi-proxy-waf/
 
 #Change this and build the image to suit your needs by default, without needing to add parameters later
-ENV LEARNING_MODE yes
+ENV LEARNING_MODE no
 ENV PROXY_REDIRECT_IP 12.34.56.78
 ENV ELASTICSEARCH_HOST elasticsearch
 
